@@ -79,6 +79,7 @@ input, select, textarea {
 
 .btn-desc:hover{
 	color: #40d8ec;
+	cursor: pointer;
 }
 
 .btn-inicio{

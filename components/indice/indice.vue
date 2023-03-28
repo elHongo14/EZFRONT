@@ -7,7 +7,7 @@
 						<li><a href="#intro" class="btn-inicio">inicio</a></li>
 						<li><a href="#one" class="btn-one">sobre nosotros</a></li>
 						<li><a href="#contact" class="btn-contact">contacto</a></li>
-						<a href="./zona-descarga.html" class="btn-desc">
+						<a @click="downloadBtn" class="btn-desc">
 							descargar beta<i class=" fa fa-download"></i>
 						</a>
 						<a @click="loginBtn" class="btn">iniciar sesion</a>
@@ -18,7 +18,7 @@
 				<div>
 					<header>
 						<h2>Bienvenidos a EZ-FORM</h2>
-						<a href="./zona-descarga.html" class="btn-desc">
+						<a @click="downloadBtn" class="btn-desc">
 							Descargar Aplicación Beta<i class="fa fa-download"></i>
 						</a>
 					</header>
@@ -36,7 +36,7 @@
 						¡EZ-FORM ahora está disponible en móviles!
 						Sigue de cerca el desarrollo de nuestra aplicación móvil.
 					</p>
-					<a href="./zona-descarga.html">
+					<a @click="downloadBtn" class="btn-desc">
 						Descargar Aplicación Beta<i class="fa fa-download"></i>
 					</a>
 				</div>
@@ -167,10 +167,22 @@
 <script src="../../assets/js/main.js"></script>  -->
 
 <script>
+// import jqMin from '../../assets/js/jquerymin'
+// import jqPop from '../../assets/js/jquerypoptroxmin'
+// import jqScrolly from '../../assets/js/jqueryscrollymin'
+// import jqScrollex from '../../assets/js/jqueryscrollexmin'
+// import browser from '../../assets/js/browsermin'
+// import breakP from '../../assets/js/breakpointsmin'
+// import util from '../../assets/js/util'
+// import main from '../../assets/js/main'
 export default{
 	methods: {
         async loginBtn () {
             this.$router.push('/user')
+        },
+
+		async downloadBtn () {
+            this.$router.push('/descarga')
         }
     }
 }
