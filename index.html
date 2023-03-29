@@ -12,20 +12,19 @@
 <body>
 
     <header id="uno"> 
-        <h1>
-          EZ-FROM
-        </h1>
+        
     </header>
 
 <div class="hoja">
     <div class="datos">
-        <img src="imagenes/logo-uts-10-aniversario.png" alt="">
+        <img src="./assets/css/images/form/logouts.png" alt="">
 
     
     <h2>  Universidad Tecnologica de Salamanca </h2>
     <h3> <small> Organismo Publico Descentralizado del Gobierno del Estado de Guanajuato </small> </h3>
     <p>REDIC012-E</p>
 
+<form action="">
     <p id="calendario"> CALENDARIO DE EXAMENES  </p>
     <p id="carrera"> CARRERA: <select name="Carrera" id="Carrera">
         <option value="0"></option>
@@ -73,14 +72,14 @@
 <div class="tabla_datos">
 <table   class="table table-striped" id="tabla" border="1">
     <thead>
-     <tr>
+     <tr class="tablaColor">
         <th rowspan="2">No</th>
         <th rowspan="2">ASIGNATURA</th>
         <th colspan="3">ORDINARIOS</th>
         <th rowspan="2">EXAMEN DE PRIMERA OPORTUNIDAD</th>
         <th rowspan="2">EXAMEN EXTRAORDINARIO</th>
     </tr>
-    <tr>
+    <tr class="tablaColor">
         <th>PRIMERO</th>
         <th>SEGUNDO</th>
         <th>TERCERO</th>
@@ -123,7 +122,7 @@
 
 
 <table   class="table table-striped" id="tabla2">
-<tr>
+<tr  class="tablaColor">
 <th>ACTIVIDAD</th>
 <th>FECHA </th>
 </tr>
@@ -134,11 +133,22 @@
 </tr>
 </table>
 
+<div class="firma">
+    
+    <div class="DICfield">
+        <p id="DIC03">ELABORO DIC03 <br> NOMBREY FIRMA </p>
+        <input type="file" id="firmapng">
+    </div>
+    <div class="DICfield">
+        <p id="DIC01">APROBO DIC01 <br> NOMBRE Y FIRMA</p>
+        <input type="file" id="firmapng">
+    </div>
+</div>
 
-<p id="DIC03">ELABORO DIC03 <br> NOMBREY FIRMA</p>
-<p id="DIC01">APROBO DIC01 <br> NOMBRE Y FIRMA</p>
 
 </div>
+</form>
+
     
 <footer>
     © 2023 GitHub, Inc.
