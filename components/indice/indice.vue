@@ -1,5 +1,5 @@
 <template>
-    <body>
+    <body class="">
 			<header id="header">
 				<h1>EZ-FORM</h1>
 				<nav>
@@ -167,14 +167,9 @@
 <script src="../../assets/js/main.js"></script>  -->
 
 <script>
-// import jqMin from '../../assets/js/jquerymin'
-// import jqPop from '../../assets/js/jquerypoptroxmin'
-// import jqScrolly from '../../assets/js/jqueryscrollymin'
-// import jqScrollex from '../../assets/js/jqueryscrollexmin'
-// import browser from '../../assets/js/browsermin'
-// import breakP from '../../assets/js/breakpointsmin'
-// import util from '../../assets/js/util'
-// import main from '../../assets/js/main'
+
+// import $ from '../../assets/js/util'
+import $ from '../../assets/js/main'
 export default{
 	methods: {
         async loginBtn () {
@@ -183,7 +178,7 @@ export default{
 
 		async downloadBtn () {
             this.$router.push('/descarga')
-        }
+        },
     }
 }
 </script>
