@@ -8,7 +8,7 @@
                 <nav class="navigation">
                     <div class=boton-inicio>
                         <ul>
-                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="" @click="regresoInicio">Inicio</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -29,7 +29,11 @@
 
 <script>
 export default{
-
+	methods: {
+        async regresoInicio () {
+            this.$router.push('/')
+        },
+    }
 }
 </script>
 
