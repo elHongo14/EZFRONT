@@ -1,4 +1,4 @@
-// import jQuery from '../../assets/js/jquerymin'
+import jQuery from '../../assets/js/jquerymin'
 
 (function($) {
 

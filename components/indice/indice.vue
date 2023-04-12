@@ -10,7 +10,7 @@
 						<a @click="downloadBtn" class="btn-desc">
 							descargar beta<i class=" fa fa-download"></i>
 						</a>
-						<a @click="loginBtn" class="btn">iniciar sesion</a>
+						<a @click="loginBtn" class="btn">Iniciar Sesión</a>
 					</ul>
 				</nav>
 			</header>
@@ -169,7 +169,7 @@
 <script>
 
 // import $ from '../../assets/js/util'
-import $ from '../../assets/js/main'
+// import $ from '../../assets/js/main'
 export default{
 	methods: {
         async loginBtn () {

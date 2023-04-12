@@ -37,13 +37,13 @@
         </v-list-item-content>
       </v-list-item>
       <div class="copyright">
-        Luis Enrique Hernández Martínez<br>
+        <br>
         elHongo14
       </div>
     </v-navigation-drawer>
 
     <v-app-bar app>
-      <v-toolbar-title>CRUD con Firebase🔥 y Nuxt.js💻 - 🍄 ÚLTIMA VERSIÓN!!!</v-toolbar-title>
+      <v-toolbar-title>EZ-FORM - Sesión de Admin</v-toolbar-title>
     </v-app-bar>
 
     <v-main>
