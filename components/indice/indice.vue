@@ -177,7 +177,8 @@ export default{
         },
 
 		async downloadBtn () {
-            this.$router.push('/descarga')
+            // this.$router.push('https://ezform.netlify.app/zona-descarga')
+			location.href = 'https://ezform.netlify.app/zona-descarga';
         },
     }
 }
